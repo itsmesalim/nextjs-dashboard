@@ -5,7 +5,7 @@ import { lusitana } from "@/app/ui/fonts";
 import { fetchLatestInvoices, fetchRevenue } from "../lib/data";
 
 
-export default async function Page() {
+export default async function DashboardPage() {
 
   const revenue = await fetchRevenue();
   const latestInvoices = await fetchLatestInvoices();
